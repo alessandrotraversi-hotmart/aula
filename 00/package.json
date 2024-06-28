@@ -1,0 +1,30 @@
+{
+  "name": "aula-base",
+  "version": "1.0.0",
+  "description": "Aula base",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./index.ts"
+  },
+  "author": "Alessandro Traversi",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/cli": "^0.1.62",
+    "@swc/core": "^1.3.77",
+    "@types/node": "^20.5.0",
+    "@types/uuid": "^9.0.2",
+    "@typescript-eslint/eslint-plugin": "5.62.0",
+    "@typescript-eslint/parser": "5.62.0",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard-with-typescript": "37.0.0",
+    "eslint-plugin-unicorn": "^53.0.0",
+    "prettier": "^3.0.2",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ts-node": "10.9.2",
+    "uuid": "^9.0.0"
+  }
+}

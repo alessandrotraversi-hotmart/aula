@@ -1,0 +1,15 @@
+# Ignore artifacts:
+build
+coverage
+node_modules
+
+# Ignore config files:
+*.yaml
+*.yml
+*.sh
+
+.eslintrc.js
+.prettierrc.js
+.heimdall
+.drone.yml
+catalog-info.yaml
