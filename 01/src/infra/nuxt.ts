@@ -8,7 +8,7 @@ export default class Nuxt {
     }
     
     execute() {
-        console.log('Starting Nuxt process')
+        console.log('Starting Nuxt processs')
         this.usecase.execute()
     }
 }
