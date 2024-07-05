@@ -1,6 +1,6 @@
 import SendDataUsecase from "../application/usecase/sendData.usecase";
 
-export default class {
+export default class Nuxt {
     usecase: SendDataUsecase
     
     constructor() {
@@ -8,7 +8,9 @@ export default class {
     }
     
     execute() {
-        console.log('Starting server process')
+        console.log('Starting Nuxt process')
         this.usecase.execute()
     }
 }
+
+new Nuxt().execute()

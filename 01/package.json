@@ -4,7 +4,7 @@
   "description": "Aula base",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node ./index.ts"
+    "start": "ts-node ./src/infra/next.ts"
   },
   "author": "Alessandro Traversi",
   "license": "MIT",
